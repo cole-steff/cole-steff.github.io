@@ -26,9 +26,16 @@ github_username:  cole-steff
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: alembic-jekyll-theme
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
